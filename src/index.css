@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@font-face {
+  font-family: "LinkinPark";
+  src: url(./fonts/LinkinPark.ttf) format("truetype");
+}
+@theme {
+  --color-blood: #8b0000;
+  --font-lp: "LinkinPark";
+}
+html {
+  @apply scroll-smooth;
+}
