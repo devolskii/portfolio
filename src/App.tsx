@@ -1,9 +1,8 @@
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
-import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
-
+import Contact from "./pages/Contact";
 export default function App() {
   return (
     <main className="bg-blood">

@@ -1,4 +1,6 @@
 @import "tailwindcss";
+@source "./**/*.{tsx,ts}";
+
 @font-face {
   font-family: "LinkinPark";
   src: url(./fonts/LinkinPark.ttf) format("truetype");

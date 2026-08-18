@@ -10,19 +10,19 @@ const Projects = () => {
     >
       <div className="border-2 border-black h-1/4 flex p-4 justify-between">
         <img src={p2} alt="blpi" className="k w-1/3 h-auto" />
-        <div className="w-2/3 break-words flex flex-col justify-center">
+        <div className="w-2/3 wrap-break-word flex flex-col justify-center">
           <p className="text-right">Central Committee member at BLPI</p>
         </div>
       </div>
       <div className="border-2 border-black h-1/4 flex p-4 justify-between">
-        <div className="w-2/3 break-words flex flex-col justify-center">
+        <div className="w-2/3 wrap-break-word flex flex-col justify-center">
           <p>Founder and Artiste at Nishat Dana</p>
         </div>
         <img src={p1} alt="nishat dana" className="w-1/3 h-auto" />
       </div>
       <div className="border-2 border-black h-1/4 flex p-4 justify-between">
         <img src={p3} alt="freelancer" className="k w-1/3 h-auto" />
-        <div className="w-2/3 break-words flex flex-col justify-center">
+        <div className="w-2/3 wrap-break-word flex flex-col justify-center">
           <p className="text-right">A Full Stack Developer freelancer</p>
         </div>
       </div>

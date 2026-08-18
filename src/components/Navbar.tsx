@@ -2,7 +2,8 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { useGlobalContext } from "../context/context";
 
 const Navbar = () => {
-  const { toggleSidebar } = useGlobalContext();
+  const context = useGlobalContext();
+  const { toggleSidebar } = context || {};
   return (
     <header className=" bg-blood h-17 fixed top-0 w-full">
       <nav className="h-full lg:mx-auto lg:w-2/3 px-4 flex justify-between items-center">
